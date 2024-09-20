@@ -1,0 +1,62 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+footer{
+    display: flex;
+padding: 50px;
+    justify-content: space-around;
+}
+footer h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.first_section p{
+    font-size: 18px;
+}
+input{
+    width: 100%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    font-family: "Inter Regular", "Inter", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 14px;
+    background: rgb(237, 237, 237);
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 0 1px transparent;
+    margin-top: 20px;
+}
+
+.subscribe{
+    
+        appearance: none;
+        width: 100%;
+        line-height: 1.4em;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 10px 15px;
+        font-family: "Inter Regular", Inter, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 600;
+        font-size: 14px;
+        background-color:rgb(19, 170, 161);
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        opacity: 1;
+        margin-top: 20px;
+}
+.second_section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 18px;
+}

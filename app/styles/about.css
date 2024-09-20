@@ -1,0 +1,30 @@
+.about_section {
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px; 
+}
+
+.about, .about_text {
+    flex: 1; 
+}
+
+.about_img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 20px;
+    object-fit: cover; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    color: rgba(19, 170, 161);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px; 
+    color: #333;
+}

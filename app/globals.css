@@ -25,3 +25,42 @@ body {
     text-wrap: balance;
   }
 }
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background: linear-gradient(to right, #d1d4ec, #d4cfcf, #a6dcb1, #f9f9f9);
+  border-bottom:1px solid rgba(0, 0, 0, 0.08);
+
+}
+
+
+li{
+list-style-type:none;
+color:black;
+animation:fadeIn 9s ease-in-out;
+
+}
+li:hover{
+  color: #276544;
+  cursor: pointer;
+}
+.menu_list{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.signup{
+  background-color: #ffffff;
+  padding: 5px 22px;
+  border-radius: 38px;
+}
+
